@@ -13,6 +13,7 @@ const port=process.env.PORT || 4000
 //instantiate the server
 const app=express();
 
+//connection to db
 dbConnect();
 
 //listening the app on a particular port
